@@ -1,0 +1,23 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyGallary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="myGallary.css" >
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+    <p>MyGallary</p>
+    <ul>
+        <li><a href="./images/pic1.jpg" title="pic1" onclick="showPic(this); return false;">pic1</a></li>
+        <li><a href="./images/pic2.jpg" title="pic2" onclick="showPic(this); return false;">pic2</a></li>
+        <li><a href="./images/pic3.jpg" title="pic3" onclick="showPic(this); return false;">pic3</a></li>
+        <li><a href="./images/pic4.jpg" title="pic4" onclick="showPic(this); return false;">pic4</a></li>
+    </ul>
+    <img id="placeHolder" src="./images/cover.jpg"> 
+    <p id="description">Cover</p>
+    <script src="myGallary.js"></script>
+</body>
+</html>
